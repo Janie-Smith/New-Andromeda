@@ -22,6 +22,7 @@
 # SPDX-FileCopyrightText: 2025 88tv <131759102+88tv@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 8tv <eightev@gmail.com>
 # SPDX-FileCopyrightText: 2025 ArtisticRoomba <145879011+ArtisticRoomba@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 DESKTOP-0V0K4HQ\Rosy <rosysaturniidae@gmail.com>
 # SPDX-FileCopyrightText: 2025 Dani <57107055+wgreen84@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Dani Green <wgreen84gamergame@gmail.com>
 # SPDX-FileCopyrightText: 2025 Fr0goo <153249069+Fr0goo@users.noreply.github.com>
@@ -333,7 +334,7 @@
     - QuartermasterOuterClothing
     - QuartermasterShoes
     - Glasses
-    - Survival
+    - SurvivalSalvageExtended
     - Trinkets
     - QuartermasterJobTrinkets
     - ApoiadoresGroup # Andromeda
@@ -366,11 +367,12 @@
   id: JobSalvageSpecialist
   groups:
     - SalvageSpecialistHead
+    - SalvageSpecialistJumpsuit
     - SalvageSpecialistBackpack
     - SalvageSpecialistOuterClothing
     - SalvageSpecialistShoes
     - Glasses
-    - Survival
+    - SurvivalSalvageExtended
     - Trinkets
     - SalvageSpecialistJobTrinkets
     - ApoiadoresGroup # Andromeda
@@ -631,11 +633,11 @@
     - MedicalMask
     - MedicalDoctorGlasses #Funky
     - ChiefMedicalOfficerJumpsuit
-    - MedicalGloves
+    - ChemistGloves
     - MedicalBackpack
     - ChiefMedicalOfficerOuterClothing
     - ChiefMedicalOfficerNeck
-    - ChiefMedicalOfficerShoes
+    - ChemistShoes
     - MedicalItensLoadout # Andromeda
     - Glasses
     - SurvivalMedical
@@ -693,11 +695,10 @@
     - MedicalMask
     - MedicalChemistGlasses #Funky
     - ChemistJumpsuit
-    - MedicalGloves
+    - ChemistGloves
     - ChemistBackpack
-    - MedicalNeck
     - ChemistOuterClothing
-    - MedicalShoes
+    - ChemistShoes
     - SurvivalMedical
     - Trinkets
     - ChemistJobTrinkets
@@ -712,7 +713,7 @@
   groups:
     - ParamedicHead
     - MedicalMask
-    - MedicalDoctorGlasses #Funky
+    - ParamedicGlasses #Funky
     - ParamedicJumpsuit
     - MedicalGloves
     - MedicalBackpack
