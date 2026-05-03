@@ -32,7 +32,7 @@
   id: Cluster
   mapName: 'Cluster'
   mapPath: /Maps/_Funkystation/cluster.yml #Funkystation - Robotics
-  minPlayers: 10
+  minPlayers: 0
   maxPlayers: 35
   stations:
     Cluster:
@@ -67,8 +67,7 @@
             Boxer: [ 1, 1 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
-            AtmosphericTechnician: [ 2, 2 ]
-            StationEngineer: [ 3, 3 ]
+            StationEngineer: [ 5, 5 ]
             TechnicalAssistant: [ 2, 2 ]
             #medical
             ChiefMedicalOfficer: [ 1, 1 ]
